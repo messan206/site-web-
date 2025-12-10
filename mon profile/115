@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Messan Mendy</title>
+	<meta name=" c'est la page du Messan">
+</head>
+<body>
+<h1> Bonjour, Je suis Mendy</h1>
+<img src="images/photo.jpg">
+<p> Je ne suis pas dans les betises comme ca 
+</p>
+<a href="https://ci.linkedin.com/in/mendy-messan-5a76972b7">Discover Mendy</a>
+</body>
+</html>
+
+

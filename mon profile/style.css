@@ -1,0 +1,69 @@
+/* Styles globaux */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f5fb;
+    margin: 0;
+    padding: 40px;
+    color: #444;
+}
+
+/* Carte principale */
+.card {
+    background-color: #ffffff;
+    width: 60%;
+    max-width: 800px; /* limite la largeur sur grands écrans */
+    margin: 30px auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* effet au survol */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Titres */
+h1 {
+    color: #3c3c6c;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #2db585;
+    margin-bottom: 20px;
+}
+
+/* Image de profil */
+.profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 20px 0;
+    object-fit: cover; /* pour éviter les déformations d'image */
+}
+
+/* Paragraphes */
+p {
+    line-height: 1.6;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Bouton */
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #4B6EF5;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #3a55d1; /* léger changement au survol */
+}
